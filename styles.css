@@ -1,4 +1,30 @@
+#bgimage {
+
+	background-image: url(rafa-background.jpg);
+	background-size: 100%;
+
+}
+
+form {
+
+	color: white;
+	font-weight: bold;
+}
+
 body {
 
-	background-color: blue;
+	background-color: #b3b3b3;
 }
+
+#license {
+
+	display: block;
+	margin-top: 220px;
+		
+}
+
+.licenselink:visited {
+
+  color: white;
+
+};
