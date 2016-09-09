@@ -20,6 +20,7 @@ body {
 
 	display: block;
 	margin-top: 220px;
+
 		
 }
 
@@ -27,4 +28,23 @@ body {
 
   color: white;
 
-};
+}
+
+
+#c-footer {
+
+	text-align: center;
+
+}
+
+#info {
+
+	padding: 10px;
+	border: 3px dashed #000066;
+	margin: 20px;
+}
+
+#congrats {
+
+	font-family: 'Copperplate Gothic Light';
+}
