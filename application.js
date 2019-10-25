@@ -8,7 +8,7 @@ var printTemplate = function(event) {
   var code = this.aymanscode.value
   var outputDiv = document.querySelector('.output')
   
-  var template = "COMPUTE ECMODAY=0.";
+  var template = "\nCOMPUTE ECMODAY=0.";
 
     for(var h = 0; h <= 125; h++) {
       for(var j = 1; j <= 15; j++) {
