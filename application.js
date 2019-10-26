@@ -36,7 +36,7 @@ var printTemplate = function(event) {
   var bigTemplate = "";
   
   var codesString = this.aymanscode.value;
-  var codesArray = codesString.split(" ");
+  var codes = codesString.split(" ");
 	for(var jh=0; jh < codes.length; jh++) {
 	  var code = codes[jh];
 	  var template = "COMPUTE CABGDAY=0.";
