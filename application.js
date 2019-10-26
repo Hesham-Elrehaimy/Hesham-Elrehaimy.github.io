@@ -22,7 +22,7 @@ var printTemplate = function(event) {
       template += "IF ((PR" + hj + " = " + code + ") & (PRDAY" + hj + " >125)) ECMODAY=999.";
     }
   
-    template += "\n;
+    template += "\n";
     template += "EXECUTE.\n";
     template += "COMPUTE NO_ECMO_DAY_ZERO=ECMO = 0 & ECMODAY = 0.\n";
     template += "EXECUTE.\n";
