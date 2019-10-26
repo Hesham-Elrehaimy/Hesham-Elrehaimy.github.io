@@ -18,13 +18,13 @@ var printTemplate = function(event) {
     for(var h = 0; h <= 125; h++) {
       for(var j = 1; j <= 15; j++) {
         template += "\n\n";
-        template += "IF ((PR" + j + " = " + code + ") & (PRDAY" + j + " =" + h + ")) ECMODAY=" + h + ".";
+        template += 'IF ((PR' + j + ' = "' + code + '") & (PRDAY' + j + ' =' + h + ')) ECMODAY=' + h + '.';
       }
     }
 
     for(var hj = 1; hj <= 15; hj++) {
       template += "\n\n";
-      template += "IF ((PR" + hj + " = " + code + ") & (PRDAY" + hj + " >125)) ECMODAY=999.";
+      template += 'IF ((PR' + hj + ' = "' + code + '") & (PRDAY' + hj + ' >125)) ECMODAY=999.';
     }
 
     template += "\n\n";
